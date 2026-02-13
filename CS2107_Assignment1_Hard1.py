@@ -10,7 +10,6 @@ r.sendline(b"1")
 
 r.recvuntil(b"iv =")
 IV = base64.b64decode(r.recvline().strip().decode())
-iv = bytearray(IV)
 
 r.recvuntil(b"ct =")
 CT = base64.b64decode(r.recvline().strip().decode())
