@@ -72,3 +72,4 @@ with open('ct', 'r', encoding = "cp1252", ) as f:
 
 
 
+
